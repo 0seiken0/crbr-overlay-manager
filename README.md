@@ -4,7 +4,7 @@ This is a tool for managing overlays while streaming Custom Robo: Battle Revolut
 ## Set Up
 If you'd rather follow a video, click [here](https://www.youtube.com/watch?v=3ytmqgEEJp0). [OLD VIDEO, UPDATE ONCE NEW ONE IS UPLOADED]
 
-1. Download the ZIP file in releases. Unzip it, then put the unzipped folder in a location where you won't need to move it anytime soon.
+1. Download the `Overlay.Manager.zip` file in releases. Unzip it, then put the unzipped folder in a location where you won't need to move it anytime soon.
 2. Open OBS, then make 8 text sources, 4 for the builds, 2 for the players' names, and 2 for the players' current game scores. If you only care about managing builds and not scores, or vice versa, then you can just make the relevant text sources.
 3. Set each text source to read from a file, then pick the text files in `dist/OBS Sources`. `red.txt`, `blue.txt`, `green.txt`, & `yellow.txt` are for the robos of the corresponding colors, and `p1name.txt`, `p1score.txt`, `p2name.txt`, & `p2score.txt` are for the corresponding player's name and score.
 
