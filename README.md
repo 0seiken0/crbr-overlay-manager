@@ -2,7 +2,7 @@
 This is a tool for managing overlays while streaming Custom Robo: Battle Revolution. I designed this for OBS but it should work fine for any software that allows text sources. The portion of this tool for loading builds is currently set up for the *Project Hive 3* patch of CR since that's what the netplay community currently runs tournaments on, and it will be updated in future if new parts are added.
 
 ## Set Up
-If you'd rather follow a video, click [here](https://www.youtube.com/watch?v=3ytmqgEEJp0). [OLD VIDEO, UPDATE ONCE NEW ONE IS UPLOADED]
+If you'd rather follow a video, click [here](https://www.youtube.com/watch?v=UlpfOva9VVs).
 
 1. Download the `Overlay.Manager.zip` file in releases. Unzip it, then put the unzipped folder in a location where you won't need to move it anytime soon.
 2. Open OBS, then make 8 text sources, 4 for the builds, 2 for the players' names, and 2 for the players' current game scores. If you only care about managing builds and not scores, or vice versa, then you can just make the relevant text sources.
