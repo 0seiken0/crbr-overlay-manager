@@ -220,11 +220,12 @@ legDict= {
     19: "Prowler"
 }
 
-with open("pads.txt", "r") as f:
-    pads = f.read().split("\n")
-buildsPad = " " * int(pads[0])
-scoresPad = " " * int(pads[1])
-namesPad = " " * int(pads[2])
+with open("config.txt", "r") as f:
+    config = f.read().split("!&*#^@%)")
+clearText = config[0]
+buildsPad = " " * int(config[1])
+scoresPad = " " * int(config[2])
+namesPad = " " * int(config[3])
 dirname = "OBS Sources"
 
 def loadToOBS():
@@ -275,16 +276,16 @@ def loadToOBS():
 
 def clearBuilds():
     with open(path.join(dirname, "red.txt"), "w") as f:
-        f.write("Waiting for\nbuilds...")
+        f.write(clearText)
 
     with open(path.join(dirname, "blue.txt"), "w") as f:
-        f.write("Waiting for\nbuilds...")
+        f.write(clearText)
 
     with open(path.join(dirname, "green.txt"), "w") as f:
-        f.write("Waiting for\nbuilds...\n" + buildsPad)
+        f.write(clearText + "\n" + buildsPad)
 
     with open(path.join(dirname, "yellow.txt"), "w") as f:
-        f.write("Waiting for\nbuilds...\n" + buildsPad)
+        f.write(clearText + "\n" + buildsPad)
 
     partsStatus.configure(text="Cleared sources")
 
@@ -331,20 +332,36 @@ def incDecScore(component):
             f.write(p2score.get() + "\n" + scoresPad)
 
 
-def configurePads():
+def switchSB():
+    temp = p1name.get()
+    p1name.delete(0, 'end')
+    p1name.insert(0, p2name.get())
+    p2name.delete(0, 'end')
+    p2name.insert(0, temp)
+    temp = p1score.get()
+    p1score.delete(0, 'end')
+    p1score.insert(0, p2score.get())
+    p2score.delete(0, 'end')
+    p2score.insert(0, temp)
+    updateSB()
+
+
+def updateConfig():
     try:
+        global clearText
         global buildsPad
         global scoresPad
         global namesPad
+        clearText = clearEntry.get(1.0, "end-1c")
         buildsPad = " " * int(buildsPadEntry.get())
         scoresPad = " " * int(scoresPadEntry.get())
         namesPad = " " * int(namesPadEntry.get())
 
-        with open("pads.txt", "w") as f:
-            f.write(str(len(buildsPad)) + "\n" + str(len(scoresPad)) + "\n" + str(len(namesPad)))
-        padStatusLabel.config(text="")
+        with open("config.txt", "w") as f:
+            f.write(clearText + "!&*#^@%)" + str(len(buildsPad)) + "!&*#^@%)" + str(len(scoresPad)) + "!&*#^@%)" + str(len(namesPad)))
+        configStatusLabel.config(text="")
     except ValueError:
-        padStatusLabel.config(text="Make sure all pads are numbers")
+        configStatusLabel.config(text="Make sure all pads are numbers")
 
 
 window = tk.Tk()
@@ -372,61 +389,71 @@ partsStatus.grid(row=1, column=3, rowspan=2, columnspan=4)
 p1label = ttk.Label(mainTab, text="P1:")
 p1label.grid(row=3, column=0)
 p1name = ttk.Entry(mainTab)
-p1name.grid(row=3, column=1, columnspan=3, padx=7, pady=7)
+p1name.grid(row=4, column=0, columnspan=3, padx=7, pady=(0, 7))
 
 p2label = ttk.Label(mainTab, text="P2:")
-p2label.grid(row=3, column=4)
+p2label.grid(row=3, column=5)
 p2name = ttk.Entry(mainTab)
-p2name.grid(row=3, column=5, columnspan=3, padx=7, pady=7)
+p2name.grid(row=4, column=5, columnspan=3, padx=7, pady=(0, 7))
 
 p1score = ttk.Entry(mainTab, width=4)
-p1score.grid(row=4, column=2)
+p1score.grid(row=5, column=1)
 p1score.insert(0, "0")
 
 p1minus1 = ttk.Button(mainTab, text="-1", width=3, command=lambda:incDecScore("p1minus1"))
-p1minus1.grid(row=4, column=1)
+p1minus1.grid(row=5, column=0)
 p1plus1 = ttk.Button(mainTab, text="+1", width=3, command=lambda:incDecScore("p1plus1"))
-p1plus1.grid(row=4, column=3)
+p1plus1.grid(row=5, column=2)
 
 p2score = ttk.Entry(mainTab, width=4)
-p2score.grid(row=4, column=6)
+p2score.grid(row=5, column=6)
 p2score.insert(0, "0")
 
 p2minus1 = ttk.Button(mainTab, text="-1", width=3, command=lambda:incDecScore("p2minus1"))
-p2minus1.grid(row=4, column=5)
+p2minus1.grid(row=5, column=5)
 p2plus1 = ttk.Button(mainTab, text="+1", width=3, command=lambda:incDecScore("p2plus1"))
-p2plus1.grid(row=4, column=7 )
+p2plus1.grid(row=5, column=7)
+
+switch = ttk.Button(mainTab, text="<->", width=4, command=switchSB)
+switch.grid(row=4, column=4, rowspan=2)
+
 
 updateSbButton = ttk.Button(mainTab, text="Update SB", command=updateSB)
-updateSbButton.grid(row=5, column=1, columnspan=2, padx=10, pady=7)
+updateSbButton.grid(row=6, column=1, columnspan=2, padx=10, pady=7)
 
 sbStatus = ttk.Label(mainTab)
-sbStatus.grid(row=5, column=3, columnspan=3)
+sbStatus.grid(row=6, column=3, columnspan=4)
 
-## padding
+## config
+ceLabel = ttk.Label(configTab, text="Clear Text: ")
+ceLabel.grid(row=0, column=0, pady=7, sticky='e')
+clearEntry = tk.Text(configTab, width=16, height=3, font=("Calibri", 10))
+clearEntry.grid(row=0, column=1, pady=7, sticky='w')
+clearEntry.insert(1.0, config[0])
+
 bpeLabel = ttk.Label(configTab, text="Builds Pad: ")
-bpeLabel.grid(row=0, column=0, pady=7, sticky='e')
+bpeLabel.grid(row=1, column=0, pady=7, sticky='e')
 buildsPadEntry = ttk.Entry(configTab, width=12)
-buildsPadEntry.grid(row=0, column=1, pady=7, sticky='w')
-buildsPadEntry.insert(0, pads[0])
+buildsPadEntry.grid(row=1, column=1, pady=7, sticky='w')
+buildsPadEntry.insert(0, config[1])
 
 speLabel = ttk.Label(configTab, text="Scores Pad: ")
-speLabel.grid(row=1, column=0, pady=7, sticky='e')
+speLabel.grid(row=2, column=0, pady=7, sticky='e')
 scoresPadEntry = ttk.Entry(configTab, width=12)
-scoresPadEntry.grid(row=1, column=1, pady=7, sticky='w')
-scoresPadEntry.insert(0, pads[1])
+scoresPadEntry.grid(row=2, column=1, pady=7, sticky='w')
+scoresPadEntry.insert(0, config[2])
 
 npeLabel = ttk.Label(configTab, text="Player Names Pad: ")
-npeLabel.grid(row=2, column=0, padx=(50, 0), pady=7, sticky='e')
+npeLabel.grid(row=3, column=0, padx=(50, 0), pady=7, sticky='e')
 namesPadEntry = ttk.Entry(configTab, width=12)
-namesPadEntry.grid(row=2, column=1, pady=7, sticky='w')
-namesPadEntry.insert(0, pads[2])
+namesPadEntry.grid(row=3, column=1, pady=7, sticky='w')
+namesPadEntry.insert(0, config[3])
 
-savePads = ttk.Button(configTab, text="Save", command=configurePads)
-savePads.grid(row=3, column=1, pady=7)
+saveConfig = ttk.Button(configTab, text="Save", command=updateConfig)
+saveConfig.grid(row=4, column=1, pady=7)
 
-padStatusLabel = ttk.Label(configTab)
-padStatusLabel.grid(row=4, column=0, columnspan=2, pady=7)
+configStatusLabel = ttk.Label(configTab)
+configStatusLabel.grid(row=5, column=0, columnspan=2, pady=7)
 
 window.config(bg="#2f2f2f")
 window.mainloop()
