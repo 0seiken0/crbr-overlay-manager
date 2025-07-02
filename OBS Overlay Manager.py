@@ -429,12 +429,13 @@ configs.read("config.ini")
 dirname = "OBS Sources"
 
 def loadClearLoop():
+    state = configs.get("status", "state")
     dolphin.hook()
     if configs.getboolean("configurations", "autoload") and dolphin.is_hooked():
-        if dolphin.read_byte(0x8024BC9B) == 0x01 and dolphin.read_byte(0x8040BAB2) == 0x01 and dolphin.read_byte(0x8041976E) == 0x01: # both players ready and not in battle
+        if dolphin.read_byte(0x8024FCB8) != 0x00 and state != "loaded": # robo bytes loaded
             loadToOBS()
     if configs.getboolean("configurations", "autoclear") and dolphin.is_hooked():
-        if dolphin.read_byte(0x8024BC9B) == 0x00 and dolphin.read_byte(0x8040BAB2) == 0x00 and dolphin.read_byte(0x8041976E) == 0x00: # entered part select
+        if dolphin.read_byte(0x8024FCB8) == 0x00 and state != "cleared": # robo bytes unloaded
             clearBuilds()
 
     if configs.getboolean("configurations", "autoload") or configs.getboolean("configurations", "autoclear"):
@@ -502,6 +503,11 @@ def loadToOBS():
         if "Updated sources to builds" not in currentStatus:
             addStatusText("Updated sources to builds")
 
+        configs.set("status", "state", "loaded")
+    
+        with open("config.ini", "w") as configFile:
+            configs.write(configFile)
+
 
 def clearBuilds():
     with open(path.join(dirname, "red.txt"), "r") as f:
@@ -522,6 +528,11 @@ def clearBuilds():
             currentStatus = statusQueue.cget("text")
             if "Cleared sources" not in currentStatus:
                 addStatusText("Cleared sources")
+
+            configs.set("status", "state", "cleared")
+    
+            with open("config.ini", "w") as configFile:
+                configs.write(configFile)
 
 
 def updateSB():
