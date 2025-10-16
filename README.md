@@ -25,6 +25,9 @@ If you'd rather follow a video, click [here](https://www.youtube.com/watch?v=Ulp
 | `round.txt`*      | Current tourney round |
 
 3. Open the CRBR Overlay Manager by navigating to `crbr-overlay-manager/dist` and double clicking the `CRBR Overlay Manager.exe`. This will open a window titled "CRBR Overlay Manager" and will display the `Main` tab. You can pin the program in the taskbar for easy access on subsequent uses.
+
+<img width="310" height="252" alt="Screenshot 2025-10-16 163400" src="https://github.com/user-attachments/assets/26602f93-5c64-4fd6-ba9f-6faa0c48e04b" />
+
 4. To load parts, run CRBR through Dolphin and navigate to the P1+P1vsP2+P2 tag parts select screen. Click the `Load Parts` button to populate the text sources for each robo with that robo's current parts. Click the `Clear Parts` button to clear to those text sources if players are still picking builds.
 5. To manage the scoreboard, enter the players' names in the `P1:` & `P2:` fields and their current scores in the boxes below those fields, then click the `Update SB` button. You can also click the `-1` & `+1` buttons to quickly decrement/increment each player's score, and press the `<->` button to switch both players' scores and names. Note: the `P1:` & `P2:` fields are actually dropdowns, and you can see how to configure those below.
 6. To update tournament/event info, fill the event name in the `Event:` field and the current round in the `Round:` field, then click the `Update Tourney` button to fill the tournament info text sources.
@@ -32,6 +35,9 @@ If you'd rather follow a video, click [here](https://www.youtube.com/watch?v=Ulp
 ## Additional Features & Config
 
 Some settings can be modified in the `Config` tab.
+
+<img width="310" height="252" alt="Screenshot 2025-10-16 163402" src="https://github.com/user-attachments/assets/e14681cc-ac12-4dc5-be6a-d2125adb42b6" />
+
 - In the `Clear Text:` box, you can set what text gets put in the robo text sources when you click the `Clear Parts` button. Enter your preferred clear text, then click `Save`.
 - In the `Player Names:` box, you can enter a list of player names that will populate the player name dropdowns. Enter each player's name on its own line, then click `Save` to sort the list and populate the dropdowns. This allows you to more quickly select names for players who appear often, but keep in mind that you can still enter other names by simply typing them in the `P1:` & `P2:` fields.
 - The `Builds Pad`, `Scores Pad`, & `Names Pad` add a line of spaces below both players names & scores, and below player 2's builds. In OBS, text sources anchor to the left side by default, so these pads help make sure right- and center-aligned text sources don't move around when storing text of varying lengths. Set a value in each box to change how many spaces are entered at the bottom of the corresponding sources, or you can just set them all to 0 if you don't want to bother with it.
