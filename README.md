@@ -1,6 +1,6 @@
 # Custom Robo Overlay Manager
 
-This is a tool for managing overlays while streaming/recording Custom Robo: Battle Revolution being played through Dolphin. I designed this for OBS but it works fine with any recording software that allows text sources to read from a text file. The portion of this tool for loading parts to the screen works with both Vanilla CRBR & *Project Hive 3*, a patch made by the CR Netplay community and used for the community's tournaments. This will be updated in future if new parts are added or parts are reordered.
+This is a tool for managing overlays while streaming/recording Custom Robo: Battle Revolution being played through Dolphin. I designed this for OBS but it works fine with any recording software that allows text sources to read from a text file. The portion of this tool for loading parts to the screen works with both Vanilla CRBR & *Project Hive 3.1*, a patch made by the CR Netplay community and used for the community's tournaments. This will be updated in future if new parts are added or parts are reordered.
 
 This was designed in Windows. It might work for Mac & Linux but I honestly have no earthly idea since I don't have Mac or Linux machines.
 
@@ -21,6 +21,8 @@ If you'd rather follow a video, click [here](https://www.youtube.com/watch?v=Ulp
 | `p1score.txt`     | Player 1's score      |
 | `p2name.txt`*     | Player 2's name       |
 | `p2score.txt`     | Player 2's score      |
+| `p1wins.txt`      | "Player 1 wins" text  |
+| `p2wins.txt`      | "Player 2 wins" text  |
 | `tourney.txt`*    | Tourney/event name    |
 | `round.txt`*      | Current tourney round |
 
@@ -46,7 +48,7 @@ Some settings can be modified in the `Config` tab.
 There are some additional features for more complex functions.
 
 - Tick the `Auto Load Parts` box to automatically load parts to the robo text sources when entering cube launch, and tick the `Auto Clear Parts` box to automatically clear the text sources when returning to stage select. Keep in mind that ticking either box will hide the corresponding button on the `Main` tab, so keep these boxes unticked if you prefer having manual control.
-- This tool also enables loading particular images for each player, for example loading a picture of a robo or build that a player commonly uses. You can create your own images for each player, name them `<player_name> - p1.png` & `<player_name> - p2.png`, and place them in the `Player Images` folder. Then, whenever the scoreboard is updated, the images corresponding to each player's name are copied onto either `p1.png` or `p2.png` in `Player Images`. If there's no image matching the player's name, then `p1unknown.png` or `p2unknown.png` will be copied instead. You can add image sources in your recording software for `p1.png` & `p2.png` and these will update whenever the scoreboard is loaded. I recommend configuring the player name dropdowns to make sure that the names in the player name fields exactly match the image file names. 
+- This tool also enables loading particular images for each player, for example loading a picture of a robo or build that a player commonly uses. You can create your own images for each player, name them `<player_name> - p1.png` & `<player_name> - p2.png`, and place them in the `Player Images` folder. Then, whenever the scoreboard is updated, the images corresponding to each player's name are copied onto either `p1.png` or `p2.png` in `Player Images`. If there's no image matching the player's name, then `p1unknown.png` or `p2unknown.png` will be copied instead. You can add image sources in your recording software for `p1.png` & `p2.png` and these will update whenever the scoreboard is loaded. You can also create images for when each player wins in the `Victory Images` folder. These files must be named `<player_name> wins.png`, and will be copied onto `p1 wins.png` and `p2 wins.png` when the scoreboard is updated. I recommend configuring the player name dropdowns to make sure that the names in the player name fields exactly match the image file names.
 - You can click the `Save Parts` button in the `Main` tab to record both players' current builds to an Excel sheet. This will create or update a file named `builds.xlsx` in the `dist` folder. A page will be created in that spreadsheet with the name `<event_name> <current_date>`, pulling event name from the `Event:` field in the `Main` tab. Builds for the same event are appended to that sheet, and a new page is created for new event names. Note: part names are pulled from the robo text files, so make sure you click `Load Parts` before clicking `Save Parts` to prevent accidentally recording the same builds twice. Also, make sure you don't have both `builds.xlsx` and the CRBR Overlay Manager open at the same time, as this can cause issues with both making changes to `builds.xlsx` by hand and automatically saving parts.
 
 ## Acknowledgements

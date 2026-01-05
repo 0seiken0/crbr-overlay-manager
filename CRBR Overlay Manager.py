@@ -427,21 +427,243 @@ ph3Parts = [
     }
 ]
 
+ph3dot1Parts = [
+    {
+        0: "Ray 01",
+        1: "Splendor",
+        2: "Glory",
+        3: "Milky Way",
+        4: "Earth",
+        5: "Sol",
+        6: "Metal Ape",
+        7: "Metal Bear",
+        8: "Metal Ox",
+        9: "Swift",
+        10: "Shrike",
+        11: "Peregrine",
+        12: "Javelin",
+        13: "Glaive",
+        14: "Halberd",
+        15: "Criminal",
+        16: "Buggy",
+        17: "Juggler",
+        18: "Defender",
+        19: "Seeker",
+        20: "Breaker",
+        21: "Seal Head",
+        22: "Dour Head",
+        23: "Tank Head",
+        24: "Chickenheart",
+        25: "Lionmane",
+        26: "Wolfclaw",
+        27: "Gannicus",
+        28: "Spartacus",
+        29: "Crixus",
+        30: "Athena",
+        31: "Hestia",
+        32: "Nike",
+        33: "Blitz",
+        34: "Turbo",
+        35: "Zoom",
+        36: "Tempest",
+        37: "Cyclone",
+        38: "Hurricane"
+    },
+    {
+        0: "Basic",
+        1: "Needle",
+        2: "Sniper",
+        3: "Gatling",
+        4: "Ion",
+        5: "V Laser",
+        6: "Dragon",
+        7: "Hydra",
+        8: "Bubble",
+        9: "Splash",
+        10: "Stun",
+        11: "Shotgun",
+        12: "Magnum",
+        13: "Drill",
+        14: "Knuckle",
+        15: "Quickshot",
+        16: "Surge",
+        17: "Flame",
+        18: "Hornet",
+        19: "Vertical",
+        20: "Buster",
+        21: "Meteor Storm",
+        22: "Left Pulse",
+        23: "Right Pulse",
+        24: "Twin Fang",
+        25: "Flare",
+        26: "Rahu I",
+        27: "Slicer",
+        28: "Gravity",
+        29: "3-Way",
+        30: "Left Arc",
+        31: "Right Arc",
+        32: "Starshot",
+        33: "Homing Star",
+        34: "Glider",
+        35: "Halo",
+        36: "Afterburner",
+        37: "Rayfall",
+        38: "Eagle",
+        39: "Trap",
+        40: "Sword Storm",
+        41: "Vulture",
+        42: "Pursuit",
+        43: "Titan",
+        44: "Left 5-Way",
+        45: "Right 5-Way",
+        46: "Claw",
+        47: "Blade",
+        48: "Phoenix"
+    },
+    {
+        0: "Standard R",
+        1: "Standard F",
+        2: "Standard S",
+        3: "Standard K",
+        4: "Standard X",
+        5: "Straight R",
+        6: "Straight G",
+        7: "Straight S",
+        8: "Straight T",
+        9: "Left Flank F",
+        10: "Right Flank F",
+        11: "Left Flank H",
+        12: "Right Flank H",
+        13: "Left Flank X",
+        14: "Right Flank X",
+        15: "Burrow D",
+        16: "Burrow P",
+        17: "Tomahawk R",
+        18: "Tomahawk B",
+        19: "Tomahawk G",
+        20: "Gemini D",
+        21: "Gemini P",
+        22: "Dual R",
+        23: "Dual D",
+        24: "Dual C",
+        25: "Submarine D",
+        26: "Submarine P",
+        27: "Submarine K",
+        28: "Submarine X",
+        29: "Crescent R",
+        30: "Crescent P",
+        31: "Crescent C",
+        32: "Crescent K",
+        33: "Freeze",
+        34: "Wave",
+        35: "Left Wave",
+        36: "Right Wave",
+        37: "Acrobat",
+        38: "Delta",
+        39: "Wall",
+        40: "Smash",
+        41: "Double Mine",
+        42: "Geo Trap",
+        43: "Titan",
+        44: "Solar Pillar",
+        45: "Rapid",
+        46: "Grand Cross",
+        47: "Cluster",
+        48: "Heavy R",
+        49: "Heavy D",
+        50: "Heavy H",
+        51: "Heavy K"
+    },
+    {
+        0: "Standard R",
+        1: "Standard D",
+        2: "Twin Flank F",
+        3: "Twin Flank G",
+        4: "Speed R",
+        5: "Speed D",
+        6: "Speed P",
+        7: "Cockroach G",
+        8: "Cockroach H",
+        9: "Dolphin R",
+        10: "Dolphin G",
+        11: "Dolphin X",
+        12: "Jumping B",
+        13: "Jumping G",
+        14: "Caboose C",
+        15: "Caboose T",
+        16: "Caboose X",
+        17: "Wave",
+        18: "Double Wave",
+        19: "Wall",
+        20: "Umbrella",
+        21: "Trio F",
+        22: "Trio H",
+        23: "Titan",
+        24: "Throwing D",
+        25: "Throwing P",
+        26: "Reflection",
+        27: "Float F",
+        28: "Feint F",
+        29: "Feint G",
+        30: "Seeker R",
+        31: "Seeker F",
+        32: "Seeker G",
+        33: "Diving",
+        34: "Spider R",
+        35: "Spider H",
+        36: "Spider G",
+        37: "Sky Freeze",
+        38: "Ground Freeze",
+        39: "Satellite",
+        40: "Satellite H",
+        41: "Beast F"
+    },
+    {
+        0: "Standard",
+        1: "Formula",
+        2: "Stabilizer",
+        3: "Precision",
+        4: "Wide Jump",
+        5: "Aerial",
+        6: "Eclipse",
+        7: "Ultimate",
+        8: "High Jump",
+        9: "Ground",
+        10: "Quick Jump",
+        11: "Feather",
+        12: "Short Thrust",
+        13: "Long Thrust",
+        14: "Swallow",
+        15: "Plus One",
+        16: "Booster",
+        17: "Overhaul",
+        18: "Raven",
+        19: "Prowler"
+    }
+]
+
 global configs
 configs = ConfigParser()
 configs.read("config.ini")
 dirname = "OBS Sources"
 pImgPath = "Player Images"
+pWinsImgPath = "Victory Images"
 
 def loadClearLoop():
     state = configs.get("status", "state")
+    dolphin.un_hook()
     dolphin.hook()
-    if configs.getboolean("configurations", "autoload") and dolphin.is_hooked():
-        if int.from_bytes(dolphin.read_bytes(0x8024FCF8, 2)) != 0 and state != "loaded": # robo bytes loaded
+    if dolphin.is_hooked():
+        if (configs.getboolean("configurations", "autoload") and configs.getboolean("configurations", "autoclear")):
+            if state != "loaded" and int.from_bytes(dolphin.read_bytes(0x8024FCF8, 2)) != 0: # robo bytes loaded
+                loadParts()
+            if state != "cleared" and int.from_bytes(dolphin.read_bytes(0x8024FCF8, 2)) == 0: # robo bytes unloaded
+                clearParts()
+        elif (configs.getboolean("configurations", "autoload") and int.from_bytes(dolphin.read_bytes(0x8024FCF8, 2)) != 0): # robo bytes loaded
             loadParts()
-    if configs.getboolean("configurations", "autoclear") and dolphin.is_hooked():
-        if int.from_bytes(dolphin.read_bytes(0x8024FCF8, 2)) == 0 and state != "cleared": # robo bytes unloaded
+        elif (configs.getboolean("configurations", "autoclear") and int.from_bytes(dolphin.read_bytes(0x8024FCF8, 2)) == 0):
             clearParts()
+
 
     if configs.getboolean("configurations", "autoload") or configs.getboolean("configurations", "autoclear"):
         window.after(500, loadClearLoop)
@@ -475,6 +697,13 @@ def loadParts():
                     bombDict = ph3Parts[2]
                     podDict = ph3Parts[3]
                     legDict = ph3Parts[4]
+                case "Project Hive 3.1":
+                    bodyDict = ph3dot1Parts[0]
+                    gunDict = ph3dot1Parts[1]
+                    bombDict = ph3dot1Parts[2]
+                    podDict = ph3dot1Parts[3]
+                    legDict = ph3dot1Parts[4]
+                    
 
             if byte in [0x8040bab7, 0x8041044b, 0x80414ddf, 0x80419773]:
                 part = bodyDict.get(value)
@@ -488,24 +717,37 @@ def loadParts():
                 part = legDict.get(value)
             parts.append(part)
 
+        partsChanged = False
         s = [parts[0] + "\n", parts[1] + "\n", parts[2] + "\n", parts[3] + "\n", parts[4]]
-        with open(path.join(dirname, "red.txt"), "w") as f:
-            f.writelines(s)
+        with open(path.join(dirname, "red.txt"), "r") as rf:
+            if ("".join(s) != "".join(rf.readlines())):
+                partsChanged = True
+                with open(path.join(dirname, "red.txt"), "w") as wf:
+                    wf.writelines(s)
 
         s = [parts[5] + "\n", parts[6] + "\n", parts[7] + "\n", parts[8] + "\n", parts[9]]
-        with open(path.join(dirname, "blue.txt"), "w") as f:
-            f.writelines(s)
+        with open(path.join(dirname, "blue.txt"), "r") as rf:
+            if ("".join(s) != "".join(rf.readlines())):
+                partsChanged = True
+                with open(path.join(dirname, "blue.txt"), "w") as wf:
+                    wf.writelines(s)
 
         s = [parts[10] + "\n", parts[11] + "\n", parts[12] + "\n", parts[13] + "\n", parts[14] + "\n", " " * int(configs.get("configurations", "buildspad"))]
-        with open(path.join(dirname, "green.txt"), "w") as f:
-            f.writelines(s)
+        with open(path.join(dirname, "green.txt"), "r") as rf:
+            if ("".join(s) != "".join(rf.readlines())):
+                partsChanged = True
+                with open(path.join(dirname, "green.txt"), "w") as wf:
+                    wf.writelines(s)
 
         s = [parts[15] + "\n", parts[16] + "\n", parts[17] + "\n", parts[18] + "\n", parts[19] + "\n", " " * int(configs.get("configurations", "buildspad"))]
-        with open(path.join(dirname, "yellow.txt"), "w") as f:
-            f.writelines(s)
+        with open(path.join(dirname, "yellow.txt"), "r") as rf:
+            if ("".join(s) != "".join(rf.readlines())):
+                partsChanged = True
+                with open(path.join(dirname, "yellow.txt"), "w") as wf:
+                    wf.writelines(s)
 
         currentStatus = statusQueue.cget("text")
-        if "Loaded parts to sources" not in currentStatus:
+        if "Loaded parts to sources" not in currentStatus and partsChanged:
             addStatusText("Loaded parts to sources")
 
         configs.set("status", "state", "loaded")
@@ -541,27 +783,56 @@ def clearParts():
 
 
 def updateSB():
+    p1nameStr = p1name.get()
+    if p1nameStr.endswith(" [L]"):
+        p1nameStr = p1nameStr[:-4]
     with open(path.join(dirname, "p1name.txt"), "w") as f:
-        f.write(p1name.get() + "\n" + " " * int(configs.get("configurations", "namespad")))
-        p1imagePath = path.join(pImgPath, p1name.get() + " - p1.png")
+        f.write(p1nameStr + "\n" + " " * int(configs.get("configurations", "namespad")))
+        p1imagePath = path.join(pImgPath, p1nameStr + " - p1.png")
+        p1winsImagePath = path.join(pWinsImgPath, p1nameStr + " wins.png")
+
         p1imageFile = Path(p1imagePath)
         if p1imageFile.is_file():
             shutil.copy(p1imagePath, path.join(pImgPath, "p1.png"))
         else: 
             shutil.copy(path.join(pImgPath, "p1unknown.png"), path.join(pImgPath, "p1.png"))
 
+        p1winsImageFile = Path(p1winsImagePath)
+        if p1winsImageFile.is_file():
+            shutil.copy(p1winsImagePath, path.join(pWinsImgPath, "p1 wins.png"))
+        else:
+            shutil.copy(path.join(pWinsImgPath, "unknown wins.png"), path.join(pWinsImgPath, "p1 wins.png"))
+
+
+    with open(path.join(dirname, "p1wins.txt"), "w") as f:
+        f.write(p1nameStr.upper() + " WINS ")
+
     with open(path.join(dirname, "p1score.txt"), "w") as f:
         f.write(p1score.get() + "\n" + " " * int(configs.get("configurations", "scorespad")))
 
+    p2nameStr = p2name.get()
+    if p2nameStr.endswith(" [L]"):
+        p2nameStr = p2nameStr[:-4]
     with open(path.join(dirname, "p2name.txt"), "w") as f:
-        f.write(p2name.get() + "\n" + " " * int(configs.get("configurations", "namespad")))
-        p2imagePath = path.join(pImgPath, p2name.get() + " - p2.png")
+        f.write(p2nameStr + "\n" + " " * int(configs.get("configurations", "namespad")))
+        p2imagePath = path.join(pImgPath, p2nameStr + " - p2.png")
+        p2winsImagePath = path.join(pWinsImgPath, p2nameStr + " wins.png")
+
         p2imageFile = Path(p2imagePath)
         if p2imageFile.is_file():
             shutil.copy(p2imagePath, path.join(pImgPath, "p2.png"))
         else: 
             shutil.copy(path.join(pImgPath, "p2unknown.png"), path.join(pImgPath, "p2.png"))
+
+        p2winsImageFile = Path(p2winsImagePath)
+        if p2winsImageFile.is_file():
+            shutil.copy(p2winsImagePath, path.join(pWinsImgPath, "p2 wins.png"))
+        else:
+            shutil.copy(path.join(pWinsImgPath, "unknown wins.png"), path.join(pWinsImgPath, "p2 wins.png"))
         
+    with open(path.join(dirname, "p2wins.txt"), "w") as f:
+        f.write(p2nameStr.upper() + " WINS ")
+
     with open(path.join(dirname, "p2score.txt"), "w") as f:
         f.write(p2score.get() + "\n" + " " * int(configs.get("configurations", "scorespad")))
 
@@ -937,7 +1208,7 @@ clearTickBox.grid(row=4, column=2, columnspan=2, padx=10, pady=7)
 patchVar = tk.StringVar()
 patchComboBox = ttk.Combobox(configTab, width=15, textvariable=patchVar, state="readonly")
 patchComboBox.grid(row=5, column=2, columnspan=2, padx=10, pady=7)
-patchComboBox["values"] = ("Vanilla", "Project Hive 3")
+patchComboBox["values"] = ("Vanilla", "Project Hive 3", "Project Hive 3.1")
 patchComboBox.bind("<<ComboboxSelected>>", lambda _:setVersion(patchComboBox))
 patchComboBox.set(configs.get("configurations", "version"))
 
