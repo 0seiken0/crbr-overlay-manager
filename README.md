@@ -43,7 +43,7 @@ Some settings can be modified in the `Config` tab.
 - In the `Clear Text:` box, you can set what text gets put in the robo text sources when you click the `Clear Parts` button. Enter your preferred clear text, then click `Save`.
 - In the `Player Names:` box, you can enter a list of player names that will populate the player name dropdowns. Enter each player's name on its own line, then click `Save` to sort the list and populate the dropdowns. This allows you to more quickly select names for players who appear often, but keep in mind that you can still enter other names by simply typing them in the `P1:` & `P2:` fields.
 - In the `Version` dropdown, you can select which version of CRBR you're playing. Vanilla is the default version that you'd have from ripping your physical copy of CRBR, and Project Hive 3 & 3.1 are versions of the community-made patch available in the Custom Robo community's discord server. Make sure to select the correct version, as some parts have different names and orders between versions.
-- In the `Language/言語`, you can select which language the build text sources get filled with, either English or Japanese. Select an option, then click `Load to OBS` to see your selection reflected in the text sources.
+- In the `Language/言語` dropdown, you can select which language the build text sources get filled with, either English or Japanese. Select an option, then click `Load to OBS` to see your selection reflected in the text sources.
 
 There are some additional features for more complex functions.
 
