@@ -1140,7 +1140,7 @@ savePlayerNames.grid(row=0, column=3)
 
 ## patch
 patchLabel = ttk.Label(configTab, text="Version")
-patchLabel.grid(row=3, column=0)
+patchLabel.grid(row=3, column=0, columnspan=2, sticky='w', padx=11)
 patchVar = tk.StringVar()
 patchComboBox = ttk.Combobox(configTab, width=15, textvariable=patchVar, state="readonly")
 patchComboBox.grid(row=4, column=0, columnspan=2, padx=10)
@@ -1150,7 +1150,7 @@ patchComboBox.set(configs.get("configurations", "version"))
 
 ## language
 langLabel = ttk.Label(configTab, text="Language/言語")
-langLabel.grid(row=5, column=0)
+langLabel.grid(row=5, column=0, columnspan=2, sticky='w', padx=11)
 langVar = tk.StringVar()
 langComboBox = ttk.Combobox(configTab, width=15, textvariable=langVar, state="readonly")
 langComboBox.grid(row=6, column=0, columnspan=2, padx=10)
