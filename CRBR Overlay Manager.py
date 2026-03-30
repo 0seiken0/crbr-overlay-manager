@@ -642,6 +642,468 @@ ph3dot1Parts = [
     }
 ]
 
+ph3dot2Parts = [
+    {
+        0: ["Ray 01", "レイ０１"],
+        1: ["Splendor", "スプレンダー"],
+        2: ["Glory", "ラーバ"],
+        3: ["Milky Way", "ミルキーウェイ"],
+        4: ["Earth", "スピカ"],
+        5: ["Sol", "アース"],
+        6: ["Metal Ape", "メタルコング"],
+        7: ["Metal Bear", "メタルベア"],
+        8: ["Metal Ox", "メタルオックス"],
+        9: ["Swift", "リトルチック"],
+        10: ["Shrike", "ペキンダック"],
+        11: ["Peregrine", "ペリグリン"],
+        12: ["Javelin", "ジャベリン"],
+        13: ["Glaive", "ブローバ"],
+        14: ["Halberd", "ハルベルト"],
+        15: ["Criminal", "クリミナル"],
+        16: ["Buggy", "バギー"],
+        17: ["Juggler", "ジャグラー"],
+        18: ["Defender", "ディフェンダー"],
+        19: ["Seeker", "ベリアス"],
+        20: ["Breaker", "ブレイカー"],
+        21: ["Seal Head", "シールヘッド"],
+        22: ["Dour Head", "プレジャーヘッド"],
+        23: ["Tank Head", "ホバーヘッド"],
+        24: ["Chickenheart", "チキンハート"],
+        25: ["Lionmane", "ライオンメーン"],
+        26: ["Wolfclaw", "ウルフクロー"],
+        27: ["Alexander", "アレクサンダー"],
+        28: ["Koga", "古賀"],
+        29: ["Zhukov", "ジューコフ"],
+        30: ["Athena", "アルテミス"],
+        31: ["Rebecca", "レベッカ"],
+        32: ["May", "メイ"],
+        33: ["Lumen", "ルーメン"],
+        34: ["Scoville", "スコヴィル"],
+        35: ["Nybble", "ニブル"],
+        36: ["Vulcan", "ウゥルカーヌス"],
+        37: ["Spitfire", "スピットファイア"],
+        38: ["Albatross", "アルバトロス"],
+        39: ["Elder", "長老"],
+        40: ["Fossil", "化石"],
+        41: ["Geezer", "爺"],
+        42: ["Oil Can", "ドラムカン"]
+    },
+    {
+        0: ["Basic", "ベーシック"],
+        1: ["Needle", "ニードル"],
+        2: ["Sniper", "スナイパー"],
+        3: ["Gatling", "ガトリング"],
+        4: ["Ion", "サンダー"],
+        5: ["V Laser", "Vレーザー"],
+        6: ["Dragon", "ドラゴン"],
+        7: ["Hydra", "ヒュドラー"],
+        8: ["Bubble", "バブル"],
+        9: ["Splash", "スプラッシュ"],
+        10: ["Stun", "スタン"],
+        11: ["Shotgun", "ショットガン"],
+        12: ["Magnum", "マグナム"],
+        13: ["Drill", "ドリル"],
+        14: ["Knuckle", "ナックル"],
+        15: ["Quickshot", "クイックショット"],
+        16: ["Surge", "サージ"],
+        17: ["Flame", "フレイム"],
+        18: ["Hornet", "ホーネット"],
+        19: ["Vertical", "バーティカル"],
+        20: ["Buster", "バスター"],
+        21: ["Meteor Storm", "スターダスト"],
+        22: ["Left Pulse", "レフトループ"],
+        23: ["Right Pulse", "ライトループ"],
+        24: ["Twin Fang", "ファング"],
+        25: ["Flare", "フレアキャノン"],
+        26: ["Rahu I", "ラグナロク1st"],
+        27: ["Slicer", "スライサー"],
+        28: ["Gravity", "グラビティ"],
+        29: ["3-Way", "３ウェイ"],
+        30: ["Left Arc", "レフトアーク"],
+        31: ["Right Arc", "ライトアーク"],
+        32: ["Starshot", "スターレイヤー"],
+        33: ["Homing Star", "マルチプル"],
+        34: ["Glider", "グライダー"],
+        35: ["Halo", "エンジェルリング"],
+        36: ["Afterburner", "アクセル"],
+        37: ["Rayfall", "レイフォール"],
+        38: ["Eagle", "イーグル"],
+        39: ["Trap", "トラップ"],
+        40: ["Sword Storm", "サークルソード"],
+        41: ["Vulture", "ハゲタカ"],
+        42: ["Pursuit", "パースート"],
+        43: ["Titan", "ジャイアント"],
+        44: ["Left 5-Way", "レフト５ウェイ"],
+        45: ["Right 5-Way", "ライト５ウェイ"],
+        46: ["Claw", "キャッチ"],
+        47: ["Blade", "ブレード"],
+        48: ["Phoenix", "フェニックス"],
+        49: ["Scorpion", "スコーピオン"],
+        50: ["Slide", "スライド"],
+        51: ["Rising", "ライジング"]
+    },
+    {
+        0: ["Standard R", "スタンダードR"],
+        1: ["Standard F", "スタンダードF"],
+        2: ["Standard S", "スタンダードS"],
+        3: ["Standard K", "スタンダードK"],
+        4: ["Standard X", "スタンダードX"],
+        5: ["Straight R", "ストレートR"],
+        6: ["Straight G", "ストレートG"],
+        7: ["Straight S", "ストレートS"],
+        8: ["Straight T", "ストレートT"],
+        9: ["Left Flank F", "レフトシュートF"],
+        10: ["Right Flank F", "ライトシュートF"],
+        11: ["Left Flank H", "レフトシュートH"],
+        12: ["Right Flank H", "ライトシュートH"],
+        13: ["Left Flank X", "レフトシュートX"],
+        14: ["Right Flank X", "ライトシュートX"],
+        15: ["Burrow D", "アイドリングD"],
+        16: ["Burrow P", "アイドリングP"],
+        17: ["Tomahawk R", "トマホークR"],
+        18: ["Tomahawk B", "トマホークB"],
+        19: ["Tomahawk G", "トマホークG"],
+        20: ["Gemini D", "ジェミニD"],
+        21: ["Gemini P", "ジェミニP"],
+        22: ["Dual R", "ディレイR"],
+        23: ["Dual D", "ディレイD"],
+        24: ["Dual C", "ディレイC"],
+        25: ["Submarine D", "サブマリンD"],
+        26: ["Submarine P", "サブマリンP"],
+        27: ["Submarine K", "サブマリンK"],
+        28: ["Submarine X", "サブマリンX"],
+        29: ["Crescent R", "クレセントR"],
+        30: ["Crescent P", "クレセントP"],
+        31: ["Crescent C", "クレセントC"],
+        32: ["Crescent K", "クレセントK"],
+        33: ["Freeze", "フリーズ"],
+        34: ["Wave", "ウェーブ"],
+        35: ["Left Wave", "レフトウェーブ"],
+        36: ["Right Wave", "ライトウェーブ"],
+        37: ["Acrobat", "アクロバット"],
+        38: ["Delta", "デルタ"],
+        39: ["Wall", "ウォール"],
+        40: ["Smash", "スマッシュ"],
+        41: ["Double Mine", "ダブルマイン"],
+        42: ["Geo Trap", "ジオトラップ"],
+        43: ["Titan", "ジャイアント"],
+        44: ["Solar Pillar", "ソーラーピラー"],
+        45: ["Rapid", "ラピッド"],
+        46: ["Grand Cross", "グランドクロス"],
+        47: ["Cluster", "クラスター"],
+        48: ["Heavy R", "ヘヴィーR"],
+        49: ["Heavy D", "ヘヴィーD"],
+        50: ["Heavy H", "ヘヴィーH"],
+        51: ["Heavy K", "ヘヴィーK"],
+        52: ["Timer F", "タイマーF"],
+        53: ["Cruise P", "クルーズP"]
+    },
+    {
+        0: ["Standard R", "スタンダードR"],
+        1: ["Standard D", "スタンダードD"],
+        2: ["Twin Flank F", "サイドウェイF"],
+        3: ["Twin Flank G", "サイドウェイG"],
+        4: ["Speed R", "スピードR"],
+        5: ["Speed D", "スピードD"],
+        6: ["Speed P", "スピードP"],
+        7: ["Cockroach G", "コックローチG"],
+        8: ["Cockroach H", "コックローチH"],
+        9: ["Dolphin R", "ドルフィンR"],
+        10: ["Dolphin G", "ドルフィンG"],
+        11: ["Dolphin X", "ドルフィンX"],
+        12: ["Jumping B", "ジャンピングB"],
+        13: ["Jumping G", "ジャンピングG"],
+        14: ["Caboose C", "リアシュートC"],
+        15: ["Caboose T", "リアシュートT"],
+        16: ["Caboose X", "リアシュートX"],
+        17: ["Wave", "ウェーブ"],
+        18: ["Double Wave", "ダブルウェーブ"],
+        19: ["Wall", "ウォール"],
+        20: ["Umbrella", "アンブレラ"],
+        21: ["Trio F", "トリプルF"],
+        22: ["Trio H", "トリプルH"],
+        23: ["Titan", "ジャイアント"],
+        24: ["Throwing D", "スローイングD"],
+        25: ["Throwing P", "スローイングP"],
+        26: ["Reflection", "リフレクション"],
+        27: ["Float F", "フロートF"],
+        28: ["Feint F", "フェイントF"],
+        29: ["Feint G", "フェイントG"],
+        30: ["Seeker R", "シーカーR"],
+        31: ["Seeker F", "シーカーF"],
+        32: ["Seeker G", "シーカーG"],
+        33: ["Diving", "ダイビング"],
+        34: ["Spider R", "スパイダーR"],
+        35: ["Spider H", "スパイダーH"],
+        36: ["Spider G", "スパイダーG"],
+        37: ["Sky Freeze", "スカイフリーズ"],
+        38: ["Ground Freeze", "グランドフリーズ"],
+        39: ["Satellite R", "サテライトR"],
+        40: ["Satellite H", "サテライトH"],
+        41: ["Beast F", "ヤジューF"],
+        42: ["Sky Wave", "スカイウェーブ"],
+        43: ["Dash", "ダッシュ"],
+        44: ["Vulture B", "ハゲタカB"],
+        45: ["Divide F", "デバイドF"]
+    },
+    {
+        0: ["Standard", "スタンダード"],
+        1: ["Formula", "フォーミュラー"],
+        2: ["Stabilizer", "スタビライザー"],
+        3: ["Precision", "プレシジョン"],
+        4: ["Wide Jump", "ワイドジャンプ"],
+        5: ["Aerial", "エアリアル"],
+        6: ["Eclipse", "イクリプス"],
+        7: ["Ultimate", "アルティメット"],
+        8: ["High Jump", "ハイジャンプ"],
+        9: ["Ground", "グランダー"],
+        10: ["Quick Jump", "クイックジャンプ"],
+        11: ["Feather", "フェザー"],
+        12: ["Short Thrust", "ショートバーニア"],
+        13: ["Long Thrust", "ロングバーニア"],
+        14: ["Swallow", "ヒエン"],
+        15: ["Plus One", "プラスワン"],
+        16: ["Booster", "ブースター"],
+        17: ["Overhaul", "オーバーホール"],
+        18: ["Raven", "レイブン"],
+        19: ["Prowler", "プロウラー"]
+    }
+]
+
+v2Parts = [
+    {
+        0: ["Ray Mk II", "レイII"],
+        1: ["Shade", "シェイド"],
+        2: ["Ray", "レイ"],
+        3: ["Sol", "ソル"],
+        4: ["Dim", "ディム"],
+        5: ["Planetta", "プラネッタ"],
+        6: ["Comet", "コメット"],
+        7: ["Flare", "フレア"],
+        8: ["Stella", "ステラ"],
+        9: ["Corona", "コロナ"],
+        10: ["Wilson", "ウィルソン"],
+        11: ["Gide", "ジード"],
+        12: ["Carlyle", "カーライル"],
+        13: ["Schmitt", "シュミット"],
+        14: ["Zola", "ゾラ"],
+        15: ["Polar Bear", "ポーラベアー"],
+        16: ["Tiger Roar", "タイガーロア"],
+        17: ["Metal Bear", "メタルベアー"],
+        18: ["Bullhorn", "ブルホーン"],
+        19: ["Crazy Baboon", "クレイジーバブーン"],
+        20: ["Kaiser Head", "カイザーヘッド"],
+        21: ["Stinger Head", "スティンガーヘッド"],
+        22: ["Oracle Head", "オラクルヘッド"],
+        23: ["Keen Head", "キーンヘッド"],
+        24: ["Joker Head", "ジョーカーヘッド"],
+        25: ["Annie", "アニー"],
+        26: ["Pamela", "パメラ"],
+        27: ["Jane", "ジェーン"],
+        28: ["Amy", "エイミー"],
+        29: ["Vanessa", "バネッサ"],
+        30: ["Parrot", "パロット"],
+        31: ["Rook", "ルーク"],
+        32: ["Robin", "ロビン"],
+        33: ["Dicky", "ディッキー"],
+        34: ["Drake", "ドレイク"],
+        35: ["Per Mille", "パーミル"],
+        36: ["Lux", "ルクス"],
+        37: ["Bel", "ベル"],
+        38: ["Pico", "ピコ"],
+        39: ["Bit", "ビット"],
+        40: ["Uronsai", "武龍斎"],
+        41: ["Komuso", "虚無僧"],
+        42: ["Dokugan Jii", "独眼爺"],
+        43: ["Togensai", "頭源斎"],
+        44: ["Ginpatsu O", "銀髪翁"],
+        45: ["Halogen", "ハロゲン"],
+        46: ["Heptane", "ヘプタン"],
+        47: ["Dodecane", "ドデカン"],
+        48: ["Propane", "プロパン"],
+        49: ["Butyl", "ブチル"],
+        50: ["Lance", "ランス"],
+        51: ["Axe", "アクス"],
+        52: ["Javelin", "ジャベリン"],
+        53: ["Spear", "スピア"],
+        54: ["Cutlass", "カトラス"],
+        55: ["Hawkman", "ホークマン"],
+        56: ["Gorion", "ゴリオン"],
+        57: ["Dolphy", "ドルフィー"],
+        58: ["Wolfen", "ウルフェン"],
+        59: ["Tricerion", "トリケラオー"],
+        60: ["Hiyoko", "ヒヨコロボ"],
+        61: ["Bayonette", "ベイオネット"],
+        62: ["Majel", "メイジェル"],
+        63: ["Ray II Dark", "レイIIダーク"]
+    },
+    {
+        0: ["Basic", "ベーシック"],
+        1: ["3-Way", "３ウェイ"],
+        2: ["Gatling", "ガトリング"],
+        3: ["Vertical", "バーティカル"],
+        4: ["Sniper", "スナイパー"],
+        5: ["Stun", "スタン"],
+        6: ["Hornet", "ホーネット"],
+        7: ["Flame", "フレイム"],
+        8: ["Dragon", "ドラゴン"],
+        9: ["Splash", "スプラッシュ"],
+        10: ["Left Arc", "レフトアーク"],
+        11: ["Right Arc", "ライトアーク"],
+        12: ["Shotgun", "ショットガン"],
+        13: ["Rayfall", "レイフォール"],
+        14: ["Bubble", "バブル"],
+        15: ["Eagle", "イーグル"],
+        16: ["V Laser", "Vレーザー"],
+        17: ["Magnum", "マグナム"],
+        18: ["Needle", "ニードル"],
+        19: ["Starshot", "スターレイヤー"],
+        20: ["Glider", "グライダー"],
+        21: ["Homing Star", "マルチプル"],
+        22: ["Trap", "トラップ"],
+        23: ["Drill", "ドリル"],
+        24: ["Titan", "ジャイアント"],
+        25: ["Claw", "キャッチ"],
+        26: ["Knuckle", "ナックル"],
+        27: ["Afterburner", "アクセル"],
+        28: ["Blade", "ブレード"],
+        29: ["Meteor Storm", "スターダスト"],
+        30: ["Twin Fang", "ファング"],
+        31: ["Gravity", "グラビティ"],
+        32: ["Phoenix", "フェニックス"],
+        33: ["Hiyoko", "ヒヨコガン"],
+        34: ["Gousetsu", "ゴウセツガン"],
+        35: ["Minamo", "ミナモガン"],
+        36: ["Homura", "ホムラガン"],
+        37: ["Subaru", "スバルガン"],
+        38: ["Shinonome", "シノノメガン"],
+        39: ["Kotengu", "コテングガン"],
+        40: ["Boronji", "ボロンジガン"],
+        41: ["Rouga", "ロウガガン"],
+        42: ["Twins", "ツインズガン"],
+        43: ["Nanase", "ナナセガン"],
+        44: ["Nightmare", "ナイトメアガン"]
+    },
+    {
+        0: ["Standard", "スタンダード"],
+        1: ["Standard F", "スタンダードF"],
+        2: ["Standard S", "スタンダードS"],
+        3: ["Wave", "ウェーブ"],
+        4: ["Straight G", "ストレートG"],
+        5: ["Straight S", "ストレートS"],
+        6: ["Straight T", "ストレートT"],
+        7: ["Right Flank H", "ライトシュートH"],
+        8: ["Left Flank H", "レフトシュートH"],
+        9: ["Right Wave", "ライトウェーブ"],
+        10: ["Left Wave", "レフトウェーブ"],
+        11: ["Burrow D", "アイドリングD"],
+        12: ["Burrow P", "アイドリングP"],
+        13: ["Freeze", "フリーズ"],
+        14: ["Tomahawk B", "トマホークB"],
+        15: ["Tomahawk G", "トマホークG"],
+        16: ["Gemini B", "ジェミニB"],
+        17: ["Gemini P", "ジェミニP"],
+        18: ["Submarine D", "サブマリンD"],
+        19: ["Submarine P", "サブマリンP"],
+        20: ["Crescent P", "クレセントP"],
+        21: ["Crescent C", "クレセントC"],
+        22: ["Dual", "ディレイ"],
+        23: ["Dual C", "ディレイC"],
+        24: ["Acrobat", "アクロバット"],
+        25: ["Delta", "デルタ"],
+        26: ["Wall", "ウォール"],
+        27: ["Smash", "スマッシュ"],
+        28: ["Double Mine", "ダブルマイン"],
+        29: ["Geo Trap", "ジオトラップ"],
+        30: ["Titan", "ジャイアント"],
+        31: ["Hiyoko", "ヒヨコボム"],
+        32: ["Gousetsu", "ゴウセツボム"],
+        33: ["Minamo", "ミナモボム"],
+        34: ["Homura", "ホムラボム"],
+        35: ["Subaru", "スバルボム"],
+        36: ["Shinonome", "シノノメボム"],
+        37: ["Kotengu", "コテングボム"],
+        38: ["Boronji", "ボロンジボム"],
+        39: ["Rouga", "ロウガボム"],
+        40: ["Twins", "ツインズボム"],
+        41: ["Nanase", "ナナセボム"],
+        42: ["Genocide", "ジェノサイドボム"]
+    },
+    {
+        0: ["Standard", "スタンダード"],
+        1: ["Seeker F", "シーカーF"],
+        2: ["Seeker G", "シーカーG"],
+        3: ["Speed D", "スピードD"],
+        4: ["Speed P", "スピードP"],
+        5: ["Cockroach G", "コックローチG"],
+        6: ["Cockroach H", "コックローチH"],
+        7: ["Dolphin", "ドルフィン"],
+        8: ["Dolphin G", "ドルフィンG"],
+        9: ["Spider", "スパイダー"],
+        10: ["Spider G", "スパイダーG"],
+        11: ["Sky Freeze", "スカイフリーズ"],
+        12: ["Ground Freeze", "グランドフリーズ"],
+        13: ["Feint F", "フェイントF"],
+        14: ["Feint G", "フェイントG"],
+        15: ["Float F", "フロートF"],
+        16: ["Jumping B", "ジャンピングB"],
+        17: ["Jumping G", "ジャンピングG"],
+        18: ["Diving", "ダイビング"],
+        19: ["Wave", "ウェーブ"],
+        20: ["Satellite", "サテライト"],
+        21: ["Satellite H", "サテライトH"],
+        22: ["Beast F", "ヤジューF"],
+        23: ["Trio H", "トリプルH"],
+        24: ["Wall", "ウォール"],
+        25: ["Reflection", "リフレクション"],
+        26: ["Caboose C", "リアシュートC"],
+        27: ["Caboose T", "リアシュートT"],
+        28: ["Twin Flank F", "サイドウェイF"],
+        29: ["Twin Flank G", "サイドウェイG"],
+        30: ["Umbrella", "アンブレラ"],
+        31: ["Throwing D", "スローイングD"],
+        32: ["Throwing P", "スローイングP"],
+        33: ["Double Wave", "ダブルウェーブ"],
+        34: ["Titan", "ジャイアント"],
+        35: ["Hiyoko", "ヒヨコポッド"],
+        36: ["Gousetsu", "ゴウセツポッド"],
+        37: ["Minamo", "ミナモポッド"],
+        38: ["Homura", "ホムラポッド"],
+        39: ["Subaru", "スバルポッド"],
+        40: ["Shinonome", "シノノメポッド"],
+        41: ["Kotengu", "コテングポッド"],
+        42: ["Boronji", "ボロンジポッド"],
+        43: ["Rouga", "ロウガポッド"],
+        44: ["Twins", "ツインズポッド"],
+        45: ["Nanase", "ナナセポッド"],
+        46: ["Cerberus", "ケルベロスポッド"]
+    },
+    {
+        0: ["Standard", "スタンダード"],
+        1: ["High Jump", "ハイジャンプ"],
+        2: ["Ground", "グランダー"],
+        3: ["Formula", "フォーミュラー"],
+        4: ["Stabilizer", "スタビライザー"],
+        5: ["Short Thrust", "ショートバーニア"],
+        6: ["Long Thrust", "ロングバーニア"],
+        7: ["Quick Jump", "クイックジャンプ"],
+        8: ["Feather", "フェザー"],
+        9: ["Wide Jump", "ワイドジャンプ"],
+        10: ["Hiyoko", "ヒヨコレッグ"],
+        11: ["Gousetsu", "ゴウセツレッグ"],
+        12: ["Minamo", "ミナモレッグ"],
+        13: ["Homura", "ホムラレッグ"],
+        14: ["Subaru", "スバルレッグ"],
+        15: ["Shinonome", "シノノメレッグ"],
+        16: ["Kotengu", "コテングレッグ"],
+        17: ["Boronji", "ボロンジレッグ"],
+        18: ["Rouga", "ロウガレッグ"],
+        19: ["Twins", "ツインズレッグ"],
+        20: ["Nanase", "ナナセレッグ"],
+        21: ["Phantom", "ファントムレッグ"]
+    }
+]
+
 global configs
 configs = ConfigParser()
 configs.read("config.ini")
@@ -676,20 +1138,65 @@ def loadClearLoop():
 def loadParts():
     dolphin.hook()
 
-    byteList = [
-        0x8040bab7, 0x8040bab9, 0x8040babb, 0x8040babd, 0x8040babf,
-        0x8041044b, 0x8041044d, 0x8041044f, 0x80410451, 0x80410453,
-        0x80414ddf, 0x80414de1, 0x80414de3, 0x80414de5, 0x80414de7,
-        0x80419773, 0x80419775, 0x80419777, 0x80419779, 0x8041977b
-    ]
+    version = configs.get("configurations", "version")
     parts = []
     lang = int(configs.get("configurations", "language"))
 
     if dolphin.is_hooked():
+
+        if version == "Custom Robo V2":
+
+            byteList = [
+                0x812CD473, 0x812D4083, 0x812D84D3, 0x812DBD93, 0x812DE62B,
+                0x8130A72B, 0x8131133B, 0x8131578B, 0x8131904B, 0x8131B8E3
+            ]
+
+            bodyDict = v2Parts[0]
+            gunDict = v2Parts[1]
+            bombDict = v2Parts[2]
+            podDict = v2Parts[3]
+            legDict = v2Parts[4]
+
+            for byte in byteList:
+                value = dolphin.read_byte(byte)
+                if byte in [0x812CD473, 0x8130A72B]:
+                    part = bodyDict.get(value)[lang]
+                elif byte in [0x812D4083, 0x8131133B]:
+                    part = gunDict.get(value)[lang]
+                elif byte in [0x812D84D3, 0x8131578B]:
+                    part = bombDict.get(value)[lang]
+                elif byte in [0x812DBD93, 0x8131904B]:
+                    part = podDict.get(value)[lang]
+                elif byte in [0x812DE62B, 0x8131B8E3]:
+                    part = legDict.get(value)[lang]
+                parts.append(part)
+
+            partsChanged = False
+            s = [parts[0] + "\n", parts[1] + "\n", parts[2] + "\n", parts[3] + "\n", parts[4]]
+            print(s)
+            with open(path.join(dirname, "red.txt"), "r", encoding="utf-8") as rf:
+                if ("".join(s) != "".join(rf.readlines())):
+                    partsChanged = True
+                    with open(path.join(dirname, "red.txt"), "w", encoding="utf-8") as wf:
+                        wf.writelines(s)
+
+            s = [parts[5] + "\n", parts[6] + "\n", parts[7] + "\n", parts[8] + "\n", parts[9]]
+            print(s)
+            with open(path.join(dirname, "blue.txt"), "r", encoding="utf-8") as rf:
+                if ("".join(s) != "".join(rf.readlines())):
+                    partsChanged = True
+                    with open(path.join(dirname, "blue.txt"), "w", encoding="utf-8") as wf:
+                        wf.writelines(s)
         
-        for byte in byteList:
-            value = dolphin.read_byte(byte)
-            match configs.get("configurations", "version"):
+        else: #BR
+            byteList = [
+                0x8040bab7, 0x8040bab9, 0x8040babb, 0x8040babd, 0x8040babf,
+                0x8041044b, 0x8041044d, 0x8041044f, 0x80410451, 0x80410453,
+                0x80414ddf, 0x80414de1, 0x80414de3, 0x80414de5, 0x80414de7,
+                0x80419773, 0x80419775, 0x80419777, 0x80419779, 0x8041977b
+            ]
+
+            match version:
                 case "Vanilla":
                     bodyDict = vanillaParts[0]
                     gunDict = vanillaParts[1]
@@ -708,48 +1215,71 @@ def loadParts():
                     bombDict = ph3dot1Parts[2]
                     podDict = ph3dot1Parts[3]
                     legDict = ph3dot1Parts[4]
-                    
+                case "Project Hive 3.2":
+                    bodyDict = ph3dot2Parts[0]
+                    gunDict = ph3dot2Parts[1]
+                    bombDict = ph3dot2Parts[2]
+                    podDict = ph3dot2Parts[3]
+                    legDict = ph3dot2Parts[4]
 
-            if byte in [0x8040bab7, 0x8041044b, 0x80414ddf, 0x80419773]:
-                part = bodyDict.get(value)[lang]
-            elif byte in [0x8040bab9, 0x8041044d, 0x80414de1, 0x80419775]:
-                part = gunDict.get(value)[lang]
-            elif byte in [0x8040babb, 0x8041044f, 0x80414de3, 0x80419777]:
-                part = bombDict.get(value)[lang]
-            elif byte in [0x8040babd, 0x80410451, 0x80414de5, 0x80419779]:
-                part = podDict.get(value)[lang]
-            elif byte in [0x8040babf, 0x80410453, 0x80414de7, 0x8041977b]:
-                part = legDict.get(value)[lang]
-            parts.append(part)
+            for byte in byteList:
+                value = dolphin.read_byte(byte)
+                if byte in [0x8040bab7, 0x8041044b, 0x80414ddf, 0x80419773]:
+                    if value in bodyDict:
+                        part = bodyDict.get(value)[lang]
+                    else:
+                        part = "Unknown"
+                elif byte in [0x8040bab9, 0x8041044d, 0x80414de1, 0x80419775]:
+                    if value in gunDict:
+                        part = gunDict.get(value)[lang]
+                    else:
+                        part = "Unknown"
+                elif byte in [0x8040babb, 0x8041044f, 0x80414de3, 0x80419777]:
+                    if value in bombDict:
+                        part = bombDict.get(value)[lang]
+                    else:
+                        part = "Unknown"
+                elif byte in [0x8040babd, 0x80410451, 0x80414de5, 0x80419779]:
+                    if value in podDict:
+                        part = podDict.get(value)[lang]
+                    else:
+                        part = "Unknown"
+                elif byte in [0x8040babf, 0x80410453, 0x80414de7, 0x8041977b]:
+                    if value in legDict:
+                        part = legDict.get(value)[lang]
+                    else:
+                        part = "Unknown"
+                parts.append(part)
 
-        partsChanged = False
-        s = [parts[0] + "\n", parts[1] + "\n", parts[2] + "\n", parts[3] + "\n", parts[4]]
-        with open(path.join(dirname, "red.txt"), "r", encoding="utf-8") as rf:
-            if ("".join(s) != "".join(rf.readlines())):
-                partsChanged = True
-                with open(path.join(dirname, "red.txt"), "w", encoding="utf-8") as wf:
-                    wf.writelines(s)
+            partsChanged = False
+            s = [parts[0] + "\n", parts[1] + "\n", parts[2] + "\n", parts[3] + "\n", parts[4]]
+            with open(path.join(dirname, "red.txt"), "r", encoding="utf-8") as rf:
+                if ("".join(s) != "".join(rf.readlines())):
+                    partsChanged = True
+                    with open(path.join(dirname, "red.txt"), "w", encoding="utf-8") as wf:
+                        wf.writelines(s)
 
-        s = [parts[5] + "\n", parts[6] + "\n", parts[7] + "\n", parts[8] + "\n", parts[9]]
-        with open(path.join(dirname, "blue.txt"), "r", encoding="utf-8") as rf:
-            if ("".join(s) != "".join(rf.readlines())):
-                partsChanged = True
-                with open(path.join(dirname, "blue.txt"), "w", encoding="utf-8") as wf:
-                    wf.writelines(s)
+            s = [parts[5] + "\n", parts[6] + "\n", parts[7] + "\n", parts[8] + "\n", parts[9]]
+            with open(path.join(dirname, "blue.txt"), "r", encoding="utf-8") as rf:
+                if ("".join(s) != "".join(rf.readlines())):
+                    partsChanged = True
+                    with open(path.join(dirname, "blue.txt"), "w", encoding="utf-8") as wf:
+                        wf.writelines(s)
 
-        s = [parts[10] + "\n", parts[11] + "\n", parts[12] + "\n", parts[13] + "\n", parts[14]]
-        with open(path.join(dirname, "green.txt"), "r", encoding="utf-8") as rf:
-            if ("".join(s) != "".join(rf.readlines())):
-                partsChanged = True
-                with open(path.join(dirname, "green.txt"), "w", encoding="utf-8") as wf:
-                    wf.writelines(s)
+            s = [parts[10] + "\n", parts[11] + "\n", parts[12] + "\n", parts[13] + "\n", parts[14]]
+            with open(path.join(dirname, "green.txt"), "r", encoding="utf-8") as rf:
+                if ("".join(s) != "".join(rf.readlines())):
+                    partsChanged = True
+                    with open(path.join(dirname, "green.txt"), "w", encoding="utf-8") as wf:
+                        wf.writelines(s)
 
-        s = [parts[15] + "\n", parts[16] + "\n", parts[17] + "\n", parts[18] + "\n", parts[19]]
-        with open(path.join(dirname, "yellow.txt"), "r", encoding="utf-8") as rf:
-            if ("".join(s) != "".join(rf.readlines())):
-                partsChanged = True
-                with open(path.join(dirname, "yellow.txt"), "w", encoding="utf-8") as wf:
-                    wf.writelines(s)
+            s = [parts[15] + "\n", parts[16] + "\n", parts[17] + "\n", parts[18] + "\n", parts[19]]
+            with open(path.join(dirname, "yellow.txt"), "r", encoding="utf-8") as rf:
+                if ("".join(s) != "".join(rf.readlines())):
+                    partsChanged = True
+                    with open(path.join(dirname, "yellow.txt"), "w", encoding="utf-8") as wf:
+                        wf.writelines(s)
+
 
         currentStatus = statusQueue.cget("text")
         if "Loaded parts to sources" not in currentStatus and partsChanged:
@@ -1003,9 +1533,9 @@ def saveBuilds(p1name, p2name, tourneyName):
     with open(path.join(dirname, "blue.txt"), "r") as f:
         blueParts = f.readlines()
     with open(path.join(dirname, "green.txt"), "r") as f:
-        greenParts = f.readlines()[:-1]
+        greenParts = f.readlines()
     with open(path.join(dirname, "yellow.txt"), "r") as f:
-        yellowParts = f.readlines()[:-1]
+        yellowParts = f.readlines()
     for parts in redParts, blueParts, greenParts, yellowParts:
         for i in range(len(parts)):
             parts[i] = parts[i].replace("\n", "")
@@ -1144,7 +1674,7 @@ patchLabel.grid(row=3, column=0, columnspan=2, sticky='w', padx=11)
 patchVar = tk.StringVar()
 patchComboBox = ttk.Combobox(configTab, width=15, textvariable=patchVar, state="readonly")
 patchComboBox.grid(row=4, column=0, columnspan=2, padx=10)
-patchComboBox["values"] = ("Vanilla", "Project Hive 3", "Project Hive 3.1")
+patchComboBox["values"] = ("Vanilla", "Project Hive 3", "Project Hive 3.1", "Project Hive 3.2", "Custom Robo V2")
 patchComboBox.bind("<<ComboboxSelected>>", lambda _:comboBoxConfigUpdate(patchComboBox, "version"))
 patchComboBox.set(configs.get("configurations", "version"))
 
